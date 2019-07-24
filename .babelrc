@@ -1,0 +1,15 @@
+{
+  "presets": [["es2015", { "modules": false }]],
+  "plugins": [
+    "transform-remove-strict-mode",
+    [
+      "component",
+      [
+        {
+          "libraryName": "mint-ui",
+          "style": true
+        }
+      ]
+    ]
+  ]
+}
